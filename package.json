@@ -2,6 +2,7 @@
   "name": "tvmazeapi",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/vaibhavpacharya/react-PopCornTV",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^16.2.0",
@@ -10,6 +11,8 @@
     "reactstrap": "^5.0.0-beta.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
