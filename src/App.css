@@ -1,0 +1,300 @@
+
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  height: auto;
+}
+
+.logo {
+  font-family: 'Erica One', sans-serif;
+  white-space: nowrap;
+  letter-spacing: -.5px;
+  font-size: 4rem;
+  height: 13vh;
+  width: 65vh;
+  text-align: center;
+  background-color: crimson;
+  border-radius: 5rem;
+  color: #fff;
+  display: inline-block;
+  font-size: 7rem;
+  line-height: 1;
+  margin: 5.5rem 5rem;
+  padding: 0.5rem;
+  position: relative;
+  z-index: 2;
+  text-decoration: underline;
+  -webkit-text-decoration-color: currentColor;
+  text-decoration-color: currentColor;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-skip: ink;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  -webkit-transition: color .2s ease-out;
+  transition: color .2s ease-in;
+}
+
+.logo-1{
+  font-family: 'Erica One', sans-serif;
+  white-space: nowrap;
+  letter-spacing: -.5px;
+  font-size: 4rem;
+  height: 13vh;
+  width: 50vh;
+  text-align: center;
+  background-color: crimson;
+  border-radius: 5rem;
+  color: #fff;
+  display: inline-block;
+  font-size: 7rem;
+  line-height: 1;
+  margin: 5.5rem 5rem;
+  padding: 0.5rem;
+  position: relative;
+  z-index: 2;
+  text-decoration: underline;
+  -webkit-text-decoration-color: currentColor;
+  text-decoration-color: currentColor;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-skip: ink;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  -webkit-transition: color .2s ease-out;
+  transition: color .2s ease-in;
+}
+
+#header-top{
+  height: 40vh;
+  margin: 0 auto;
+  z-index: -10;
+}
+
+
+.heading {
+  color: Black;
+  letter-spacing: -1.5px;
+  line-height: 1; }
+
+.heading--1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  background: -webkit-linear-gradient(left, #000000 25%, transparent 100%);
+  background: -o-linear-gradient(left, #000000 25%, transparent 100%);
+  background: linear-gradient(to right, #000000 25%, transparent 100%);
+}
+
+ .heading--3 {
+  font-size: 2rem;
+  font-weight: 300;
+  float: left;
+ }
+
+ul li a{
+  color: crimson;
+  text-decoration: underline;
+  -webkit-text-decoration-color: currentColor;
+  text-decoration-color: currentColor;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  -webkit-transition: color .2s ease-out;
+  transition: color .2s ease-out;
+}
+
+.home__title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 4rem 0 1rem; }
+  @media (min-width: 35rem) {
+    .home__title {
+font-size: 4rem; } }
+
+#pageTitle{
+  font-family: 'Playfair Display', serif;
+      text-align: center;
+}
+
+.search{
+  padding: 2rem 4rem 3rem;
+  white-space: nowrap;
+  -ms-flex-align: stretch;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 0 2rem;
+  text-align: center;
+}
+
+.search_input{
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #d3d3d3;
+  width: 100%;
+  font-size: 3.25vh;
+  height: 5.25rem;
+  margin: 0;
+  padding: 0 1rem;
+  font-family: 'Open Sans',sans-serif;
+  text-align: center;
+}
+
+.search__error-text--active {
+    display: block;
+}
+
+.search__error-text {
+    color: crimson;
+    display: none;
+    padding-top: .5rem;
+}
+
+  .search__btn {
+    background-color: crimson;
+    height: 5.25rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: -1px;
+    position: relative;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    font-size: 3.25vh;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.heading--2 {
+    font-size: 2.2933rem;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.heading {
+    color: #000;
+    letter-spacing: -1.5px;
+    line-height: 1;
+    text-align: center;
+
+}
+
+.wrapper {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: auto;
+  background: #fff;
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  width: 85%;
+  margin: 0 auto;
+  background: linear-gradient(to right, #dae2f8, #d6a4a4);
+  border-radius: 1rem;
+}
+
+#tv-summary-img {
+  max-height: 360px;
+  max-width: 85%;
+  margin-left: 0;
+  border-radius: 2.5rem;
+  margin-top: 2.25vh;
+}
+
+.col-md-3{
+  height: 100rem;
+  height: 200%;
+}
+
+h1{
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+  font-size: 2.93rem;
+  font-style: normal;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+}
+
+h2{
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+  font-size: 2.93rem;
+  font-style: normal;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+}
+
+#page-header{
+  background: #fff;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 1.51rem;
+    white-space: normal;
+    font-weight: 300;
+    text-align: left;
+}
+
+span{
+  font-family: 'Raleway', sans-serif;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.footer {
+    color: #000;
+    font-size: .8rem;
+    margin: 3rem 0 -1rem;
+    border-top: 1px solid #d3d3d3;
+    margin: 2rem 0 -1rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.logo-foot {
+    color: #000;
+    font-family: 'Erica One', sans-serif;
+    letter-spacing: -.5px;
+}
